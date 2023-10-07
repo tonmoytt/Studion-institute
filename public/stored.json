@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Digital Marketing Workshop",
+      "img": "workshop_img1.jpg",
+      "description": "Join our comprehensive workshop on digital marketing strategies and techniques. Learn from industry experts and boost your online presence.",
+      "price": 99.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 2,
+      "title": "Career Development Webinar",
+      "img": "webinar_img1.jpg",
+      "description": "Discover the secrets to successful career development in our interactive webinar. Get valuable insights from HR professionals.",
+      "price": 49.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 3,
+      "title": "Tech Industry Career Fair",
+      "img": "career_fair_img1.jpg",
+      "description": "Explore exciting career opportunities in the tech industry. Connect with top companies and submit your resume.",
+      "price": 0,
+      "category": "Career Fairs"
+    },
+    {
+      "id": 4,
+      "title": "Educational Leadership Conference",
+      "img": "conference_img1.jpg",
+      "description": "Join educational leaders and policymakers at our annual conference. Discuss the future of education and innovation.",
+      "price": 149.99,
+      "category": "Educational Conferences"
+    },
+    {
+      "id": 5,
+      "title": "Project Management Training Program",
+      "img": "training_img1.jpg",
+      "description": "Enhance your project management skills with our intensive training program. Earn a certification and advance your career.",
+      "price": 299.99,
+      "category": "Training Programs"
+    },
+    {
+      "id": 6,
+      "title": "Financial Planning Workshop",
+      "img": "workshop_img2.jpg",
+      "description": "Learn how to manage your finances effectively at our hands-on financial planning workshop. Expert financial advisors will guide you.",
+      "price": 79.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 7,
+      "title": "Engineering Career Fair",
+      "img": "career_fair_img2.jpg",
+      "description": "Engineers, don't miss the chance to network with leading engineering firms at our career fair. Bring your resumes!",
+      "price": 19.99,
+      "category": "Career Fairs"
+    },
+    {
+      "id": 8,
+      "title": "Science Education Conference",
+      "img": "conference_img2.jpg",
+      "description": "Join educators and researchers at our science education conference. Explore innovative teaching methods and curriculum.",
+      "price": 129.99,
+      "category": "Educational Conferences"
+    },
+    {
+      "id": 9,
+      "title": "Digital Photography Workshop",
+      "img": "workshop_img3.jpg",
+      "description": "Unleash your creativity in our digital photography workshop. Capture stunning images and edit like a pro.",
+      "price": 89.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 10,
+      "title": "IT Training Program",
+      "img": "training_img2.jpg",
+      "description": "Acquire in-demand IT skills through our intensive training program. Prepare for a rewarding career in tech.",
+      "price": 349.99,
+      "category": "Training Programs"
+    },
+    {
+      "id": 11,
+      "title": "Marketing Strategy Webinar",
+      "img": "webinar_img2.jpg",
+      "description": "Discover the latest marketing trends and strategies in our insightful webinar. Elevate your marketing game.",
+      "price": 29.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 12,
+      "title": "Healthcare Career Fair",
+      "img": "career_fair_img3.jpg",
+      "description": "Explore career opportunities in healthcare at our career fair. Connect with hospitals, clinics, and more.",
+      "price": 0,
+      "category": "Career Fairs"
+    },
+    {
+      "id": 13,
+      "title": "Art and Design Conference",
+      "img": "conference_img3.jpg",
+      "description": "Immerse yourself in the world of art and design at our annual conference. Gain inspiration and insights from renowned artists.",
+      "price": 149.99,
+      "category": "Educational Conferences"
+    },
+    {
+      "id": 14,
+      "title": "Entrepreneurship Workshop",
+      "img": "workshop_img4.jpg",
+      "description": "Learn the essentials of starting and growing a business in our entrepreneurship workshop. Turn your ideas into reality.",
+      "price": 69.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 15,
+      "title": "Leadership Training Program",
+      "img": "training_img3.jpg",
+      "description": "Enhance your leadership skills with our comprehensive training program. Lead with confidence and impact.",
+      "price": 399.99,
+      "category": "Training Programs"
+    },
+    {
+      "id": 16,
+      "title": "Environmental Sustainability Webinar",
+      "img": "webinar_img3.jpg",
+      "description": "Explore sustainable practices and environmental conservation in our informative webinar. Be an eco-conscious advocate.",
+      "price": 0,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 17,
+      "title": "Leadership and Innovation Conference",
+      "img": "conference_img4.jpg",
+      "description": "Join industry leaders and innovators at our annual conference. Explore the intersection of leadership and innovation.",
+      "price": 179.99,
+      "category": "Educational Conferences"
+    },
+    {
+      "id": 18,
+      "title": "E-commerce Strategies Workshop",
+      "img": "workshop_img5.jpg",
+      "description": "Master the art of e-commerce with our hands-on workshop. Learn about online marketplaces, SEO, and more.",
+      "price": 94.99,
+      "category": "Workshops and Webinars"
+    },
+    {
+      "id": 19,
+      "title": "Finance Career Fair",
+      "img": "career_fair_img4.jpg",
+      "description": "Explore diverse career opportunities in finance at our career fair. Meet finance professionals and recruiters.",
+      "price": 39.99,
+      "category": "Career Fairs"
+    },
+    {
+      "id": 20,
+      "title": "Health and Wellness Webinar",
+      "img": "webinar_img4.jpg",
+      "description": "Discover the importance of health and wellness in our informative webinar. Learn how to lead a balanced life.",
+      "price": 0,
+      "category": "Workshops and Webinars"
+    }
+  ]
+}
+    
