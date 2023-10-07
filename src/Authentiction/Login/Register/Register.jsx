@@ -1,11 +1,12 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Authmainprovider } from "../provider/Provider";
+import Navbar from "../../../Navbar/Navbar";
 
  
 
 const Register = () => {
-const {createuser}=useContext(Authmainprovider)
+const {createUser}=useContext(Authmainprovider)
     const hendelregister=e =>{
         e.preventDefault()
         console.log(e.currentTarget);
@@ -15,13 +16,17 @@ const {createuser}=useContext(Authmainprovider)
         // const password=e.target.password.value
         console.log(email,password);
         
-        createuser(email,password)
+        createUser(email,password)
         .then(result =>{
             console.log(result.user);
         } )
-        .catch(error =>console.error(error.msg))
+        .catch(error =>{
+            console.error(error)
+        })
     }
     return (
+        <div>
+            <Navbar></Navbar>
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col  ">
             <div className="text-center  ">
@@ -46,17 +51,16 @@ const {createuser}=useContext(Authmainprovider)
                             <span className="label-text">Password</span>
                         </label>
                         <input type="password" name="password" placeholder="password" className="input input-bordered" required />
-                        <label className="label">
-                            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                        </label>
+                         
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Login</button>
+                        <button className="btn btn-primary">Submit</button>
                     </div>
                     <p className="my-4">Already have an account ? <Link to="/login"><button className="text-lg">Login</button></Link></p>
                 </form>
             </div>
         </div>
+    </div>
     </div>
     );
 };

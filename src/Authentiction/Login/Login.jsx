@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { Authmainprovider } from "./provider/Provider";
 
 const Login = () => {
-    const { signinUser}=useContext(Authmainprovider)
+    const { signInUser}=useContext(Authmainprovider)
     const hendellogin=e =>{
         e.preventDefault()
         console.log(e.currentTarget);
@@ -13,7 +13,7 @@ const Login = () => {
         const password= form.get('password')
         console.log(email,password);
 
-        signinUser(email,password)
+        signInUser(email,password)
         .then(result =>{
             console.log(result.user);
         })

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="bg-black text-white ">
             <div className="grid md:flex lg:flex text-base lg:text-2xl justify-around  text-white pt-10 md:pt-16 lg:pt-20 ">
-                <h1 className="font-serif  font-semibold text-white">TALK TO <Link to="/login"><button className="text-emerald-300 hover:text-xl hover:bg-red-600">STUDEON-INSTITUTE</button></Link>  ABOUT <br />YOUR CAREER BUILDING NEEDS</h1>
+                <h1 className="font-serif  font-semibold text-white">Talk to <Link to="/login"><button className="text-emerald-300 hover:text-xl hover:bg-red-600">STUDEON-INSTITUTE</button></Link>  about <br />"YOUR CAREER" building needs</h1>
                 <div className="">
                     <input className="mr-4 border pl-2" type="text" placeholder="Name" />
                     <input className="mr-4 pl-2" type="text" placeholder="Email address" />
