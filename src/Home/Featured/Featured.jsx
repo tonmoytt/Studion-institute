@@ -10,18 +10,23 @@ const Featured = () => {
 
     return (
         <div>
-            <hr />
-            <hr />
-            <hr className="mb-4" />
-            <h1 className="text-3xl font-semibold text-center  ">Featured Categories :</h1>
-            <h1 className="text-2xl text-blue-400 mt-10 text-center"> <span className="bg-green-200 px-3 rounded-lg font-semibold">Most useful content</span> <hr className="mx-96 mt-2" /> <hr className="mx-96" /><hr className="mx-96" /></h1>
+            <h1 className="text-4xl mb-10 font-semibold text-center  ">Featured Course :</h1>
+            <h1 className="text-center text-3xl text-cyan-500 font-serif font-extrabold ">OUR SERVICES </h1>
+            <hr className="mx-96 bg-red-500 text-red-400" />
+            <hr className="mx-96 bg-red-500 text-red-400" />
+            <hr className="mx-96 bg-red-500 text-red-400" />
+            <hr className="mx-96 bg-red-500 text-red-400" />
+            <hr className="mx-96 bg-red-500 text-red-400" />
+            <hr className="mx-96 bg-red-500 text-red-400" />
+            <hr className="mx-96 bg-red-500 text-red-400" />
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 md:bg-red-300 lg:bg-red-300 p-10 my-10 " >
+           
+            <div className="grid md:grid-cols-3 lg:grid-cols-3 p-6 bg-cyan-300   gap-6 mt-8">
             {
-              news.data.map(data => <Showfeaturesdata key={data.id} data={data}> </Showfeaturesdata>)
+              news.map(data => <Showfeaturesdata key={data.id} data={data}> </Showfeaturesdata>)
             }
             </div>
-            <Link to="/store"> <button className="text-green-200 text-xl mb-20 font-serif text-center bg-emerald-400 w-full font-semibold px-2 py-1 hover:bg-yellow-400 rounded-md">Show all</button></Link>
+            <Link to="/store"> <button className="text-green-200 text-xl mb-20 mt-6 font-serif text-center bg-emerald-400 w-full font-semibold px-2 py-1 hover:bg-yellow-400 rounded-md">Show all</button></Link>
         </div>
     );
 };

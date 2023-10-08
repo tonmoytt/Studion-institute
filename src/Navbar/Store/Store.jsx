@@ -3,12 +3,11 @@ import Navbar from "../Navbar";
 import ShowMainStored from "./ShowMainStored";
 
 
-
 const Store = () => {
     const [store, setstore] = useState();
     useEffect(() => {
         fetch('/storemain.json')
-            .then(res => res.json())
+            .then(res => res.json())    
             .then(data => setstore(data));
             // .then(data => console.log(data));
     }, [])

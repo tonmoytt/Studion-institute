@@ -14,18 +14,22 @@ import Register from './Authentiction/Login/Register/Register';
 import Store from './Navbar/Store/Store';
 import About from './Navbar/About/About';
 import Provider from './Authentiction/Login/provider/Provider';
+import Showfeaturesdata from './Home/Featured/Showfeaturesdata';
+import Anotherpageshow from './Home/Featured/Anotherpageshow';
+import Error from './Error/Error';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<Error></Error>,
     
     children: [
       {
         path:'/',
         element:<Home></Home>,
-        loader: () => fetch('/feature.json'),
+        loader: () => fetch('/stored.json'),
       },
       {
         path:'/login',
@@ -43,6 +47,11 @@ const router = createBrowserRouter([
       {
         path:'/about',
         element:<About></About>
+      },
+      {
+        path:'/feature/:id',
+        element:<Anotherpageshow></Anotherpageshow>,
+        loader: () => fetch('/stored.json'),
       },
       
     ]
