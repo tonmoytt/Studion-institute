@@ -1,9 +1,18 @@
+import Footer from "../../marque/Footer/Footer";
+import Navbar from "../Navbar";
 
 
 const About = () => {
     return (
         <div className="mt-10">
-            <h1 className="">
+            <Navbar></Navbar>
+            <hr className="bg-red-500" />
+            <hr className="bg-red-500" />
+            <hr className="bg-red-500" />
+            <hr className="bg-red-500" />
+            <hr className="bg-red-500" />
+            <hr className="bg-red-500" />
+            <h1 className="mt-10 underline">
                 About Us
 
                 Welcome to [Studeon-institute], where innovation meets passion. We are a dynamic team of professionals dedicated to  . Our journey began [year founded], and since then, we have been on a relentless pursuit of excellence.
@@ -33,7 +42,7 @@ const About = () => {
              
 
                 </h1>
-                <p className="mt-10 text-center font-serif text-lg">
+                <p className="mt-10 text-xl text-center text-indigo-400 font-serif ">
                 [Contact us with an email or instagram]
                 <br />
 
@@ -45,6 +54,7 @@ const About = () => {
                 <br />
                 [abulkalamajad@gmail.com]
                 </p>
+                <Footer></Footer>
         </div>
     );
 };
