@@ -13,10 +13,12 @@ const Register = () => {
         e.preventDefault()
         console.log(e.currentTarget);
         const form = new FormData(e.currentTarget)
+        const name = form.get('name')
+        const photo = form.get('photo')
         const email = form.get('email')
         const password = form.get('password')
         // const password=e.target.password.value
-        console.log(email, password);
+        console.log(name,photo,email, password);
 
         setpassword('')
         if (password.length < 6) {
@@ -63,9 +65,9 @@ const Register = () => {
     }
 
     return (
-        <div>
+        <div className="bg-emerald-200">
             <Navbar></Navbar>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen bg-green-200">
                 <div className="hero-content flex-col  ">
                     <div className="text-center  ">
                         <h1 className="text-5xl font-bold">Register now!</h1>
@@ -80,21 +82,27 @@ const Register = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
+                                    <span className="label-text">Photo Url</span>
+                                </label>
+                                <input type="text" name="name" placeholder="Photo url" className="input input-bordered" required />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" name="email" placeholder="email" className="input input-bordered" required />
+                                <input type="email" name="email" placeholder="Email" className="input input-bordered" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" name="password" placeholder="password" className="input input-bordered" required />
+                                <input type="password" name="password" placeholder="Password" className="input input-bordered" required />
 
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Submit</button>
                             </div>
-                            <p className="mt-4">Already have an account ? <Link to="/login"><button className="text-lg">Login</button></Link></p>
+                            <p className="mt-4">Already have an account ? <Link to="/login"><button className="text-2xl">Login</button></Link></p>
                         </form>
 
                         <div className="text-center mb-4">

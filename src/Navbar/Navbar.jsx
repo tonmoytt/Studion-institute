@@ -4,7 +4,7 @@ import { Authmainprovider } from "../Authentiction/Login/provider/Provider";
 
 
 const Navbar = () => {
-    const { user } = useContext(Authmainprovider)
+    const { user ,SingOutLog} = useContext(Authmainprovider)
     const navlink = <>
         <li className="mr-4 font-semibold text-xl hover:underline hover:font-bold "><NavLink to="/">Home</NavLink></li>
         <li className="mr-4 font-semibold text-xl hover:underline hover:font-bold"><NavLink to="/store">Store</NavLink></li>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <div>
 
 
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-violet-200">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <h2 className="btn btn-ghost font-serif font-semibold normal-case text-lg md:text-2xl lg:text-2xl text-cyan-400">Studeon-institute</h2>
+                    <h2 className="btn btn-ghost font-serif font-semibold normal-case text-lg md:text-2xl lg:text-2xl text-indigo-500">Studeon-institute</h2>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -41,10 +41,10 @@ const Navbar = () => {
                 <div className="navbar-end">
                     {
                         user ?
-                            <button className=" btn md:text-lg lg:text-lg lg:mr-4 hover:font-bold hover:underline hover:bg-blue-300">Signout</button>
+                            <button onClick= { () => SingOutLog()}  className=" btn md:text-lg lg:text-lg lg:mr-4 hover:font-bold hover:underline hover:bg-blue-300">Signout</button>
                             :
                             <Link to="/register">
-                                <button className=" btn md:text-lg lg:text-lg lg:mr-4 hover:font-bold hover:underline hover:bg-blue-300">Register</button>
+                                <button  className=" btn md:text-lg lg:text-lg lg:mr-4 hover:font-bold hover:underline hover:bg-blue-300">Register</button>
                             </Link>
                     }
 

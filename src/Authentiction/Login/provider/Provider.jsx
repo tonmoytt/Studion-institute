@@ -12,7 +12,7 @@ const Provider = ({ children }) => {
     const [user, setUser] = useState(null);
 
     const createUser = (email, password) => {
-        return createUserWithEmailAndPassword(auth, email, password)
+        return createUserWithEmailAndPassword(auth,email, password)
     }
 
     const signInUser = (email, password) => {

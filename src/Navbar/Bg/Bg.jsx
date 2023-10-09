@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Bg = () => {
     return (
-        <div className='mb-16  '>
+        <div className='mb-16 bg-orange-100 '>
             <hr className='w-full mb-2 bg-red-600 text-red-600' />
             <hr className='w-full mb-2 text-red-600' />
             <hr className='w-full mb-2 text-red-600' />

@@ -9,7 +9,7 @@ const Featured = () => {
     // console.log(news);
 
     return (
-        <div>
+        <div className="bg-fuchsia-200">
             <h1 className="text-4xl mb-10 font-semibold text-center  ">Featured Course :</h1>
             <h1 className="text-center text-3xl text-cyan-500 font-serif font-extrabold ">OUR SERVICES </h1>
             <hr className="mx-96 bg-red-500 text-red-400" />
