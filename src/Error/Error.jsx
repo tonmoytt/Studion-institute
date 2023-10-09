@@ -1,10 +1,18 @@
+import { Link } from "react-router-dom";
+
  
 
 const Error = () => {
     return (
-        <div>
-        <h1 className="text-3xl text-center mt-80">Error, Please solved it. asapp </h1>
-        </div>
+        <div className="align-middle mt-60">
+            <p className="text-violet-500 font-extrabold mb-2 text-6xl text-center ">Oops!</p>
+        <h1 className="text-3xl text-center font-semibold ">4O4 - page not found </h1>
+     <div className="text-center mt-6">
+     <Link to="/">
+      <button className="btn btn-secondary">Go to Homepage</button>
+      </Link>
+     </div>
+       </div>
     );
 };
 
