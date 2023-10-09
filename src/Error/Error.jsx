@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Error = () => {
     return (
-        <div className="align-middle mt-60">
+        <div className="align-middle mt-20 md:mt-40 lg:mt-60">
             <p className="text-violet-500 font-extrabold mb-2 text-6xl text-center ">Oops!</p>
         <h1 className="text-3xl text-center font-semibold ">4O4 - page not found </h1>
      <div className="text-center mt-6">

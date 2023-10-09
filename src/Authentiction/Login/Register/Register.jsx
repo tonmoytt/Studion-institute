@@ -31,7 +31,7 @@ const Register = () => {
             return;
             
         }
-        else if (!/^[a-zA-Z0-9]+$/.test(password)) {
+        else if (!/(?=.*[!@#$%^&*])/.test(password)) {
             setpassword('Please adding at least one special character')
             return;
         }
