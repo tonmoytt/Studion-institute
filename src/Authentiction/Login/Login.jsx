@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
 import { useContext } from "react";
 import { Authmainprovider } from "./provider/Provider";
+import swal from 'sweetalert';
+
 
 const Login = () => {
     const { signInUser}=useContext(Authmainprovider)
@@ -16,9 +18,12 @@ const Login = () => {
         signInUser(email,password)
         .then(result =>{
             console.log(result.user);
+            swal("Success!", "Login Successful", "success");
+            e.target.reset()
         })
         .catch(error => {
-            console.error(error)
+            console.error(error);
+            swal("Error!", "Password & Email didn't match","error");
         })
     }
     return (

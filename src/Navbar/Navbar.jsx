@@ -6,10 +6,10 @@ import { Authmainprovider } from "../Authentiction/Login/provider/Provider";
 const Navbar = () => {
     const { user } = useContext(Authmainprovider)
     const navlink = <>
-        <li className="mr-4 text-lg hover:underline hover:font-bold "><NavLink to="/">Home</NavLink></li>
-        <li className="mr-4 text-lg hover:underline hover:font-bold"><NavLink to="/store">Store</NavLink></li>
-        <li className="mr-4 text-lg hover:underline hover:font-bold"><NavLink to="/about">About</NavLink></li>
-        <li className="mr-4 text-xl hover:underline hover:font-bold"><NavLink to="/login">Login</NavLink></li>
+        <li className="mr-4 font-semibold text-xl hover:underline hover:font-bold "><NavLink to="/">Home</NavLink></li>
+        <li className="mr-4 font-semibold text-xl hover:underline hover:font-bold"><NavLink to="/store">Store</NavLink></li>
+        <li className="mr-4 font-semibold text-xl hover:underline hover:font-bold"><NavLink to="/about">About</NavLink></li>
+        <li className="mr-4 font-semibold text-xl hover:underline hover:font-bold"><NavLink to="/login">Login</NavLink></li>
 
 
     </>
